@@ -10,7 +10,6 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     VApp: typeof import('vuetify/lib')['VApp']
-    VAutocomplete: typeof import('vuetify/lib')['VAutocomplete']
     VAvatar: typeof import('vuetify/lib')['VAvatar']
     VBtn: typeof import('vuetify/lib')['VBtn']
     VButtons: typeof import('./src/components/buttons/VButtons.vue')['default']
@@ -25,8 +24,7 @@ declare module 'vue' {
     VInputFieldV2: typeof import('./src/components/inputs/VInputFieldV2.vue')['default']
     VMain: typeof import('vuetify/lib')['VMain']
     VRow: typeof import('vuetify/lib')['VRow']
-    VStepper: typeof import('./src/components/stepper/VStepper.vue')['default']
+    VStepperComp: typeof import('./src/components/stepper/VStepperComp.vue')['default']
     VSwitch: typeof import('vuetify/lib')['VSwitch']
-    VTextField: typeof import('vuetify/lib')['VTextField']
   }
 }
